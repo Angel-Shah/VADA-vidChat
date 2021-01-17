@@ -11,7 +11,7 @@
 
   <!-- CSS stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="vidchat.css" rel="stylesheet" type="text/css">
+  <link href="../css/vidchat.css" rel="stylesheet" type="text/css">
 
   <!-- Vonage - Opentok -->
   <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
@@ -46,11 +46,14 @@
       <div class="col-lg-7">
         <div id="videos">
           <div id="otEmbedContainer"></div>
-          <script src="https://tokbox.com/embed/embed/ot-embed.js?embedId=dc80498b-ff41-4460-825f-5c840aebdc3c&room=DEFAULT_ROOM"></script>
+          <!-- <script src="https://tokbox.com/embed/embed/ot-embed.js?embedId=dc80498b-ff41-4460-825f-5c840aebdc3c&room=DEFAULT_ROOM"></script> -->
+          <!-- <iframe src="https://tokbox.com/embed/embed/ot-embed.js?embedId=676adbd2-3eae-4844-bf99-6391a50f8bf3&room=DEFAULT_ROOM&iframe=true" width=850 height=600 scrolling="auto" allow="microphone; camera" ></iframe> -->
+          <div id="otEmbedContainer" style="width:850px; height:600px"></div> <script src="https://tokbox.com/embed/embed/ot-embed.js?embedId=9f899f1e-85d5-45e6-8b9a-b2be1a439ca2&room=DEFAULT_ROOM"></script>
+
         </div>
-        <button type="button" class="btn btn-outline-light btn-lg end-btn">
+        <!-- <button type="button" class="btn btn-outline-light btn-lg end-btn">
           <a href="../index.html"><i class="fas fa-video-slash"></i> Leave Session</a>
-        </button>
+        </button> -->
       </div>
 
       <div class="col-lg-5">
