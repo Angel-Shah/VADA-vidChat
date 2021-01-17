@@ -1,12 +1,12 @@
 body, html {
-  background: linear-gradient(45deg, #19456b 10%, #16c79a),
-  height: 100%,
-  padding-top: 10px
-};
+  background: linear-gradient(45deg, #19456b 10%, #16c79a);
+  height: 100%;
+  padding-top: 10px;
+}
 
 h3 {
-  outline: 0
-};
+  outline: 0;
+}
 
 .navbar-brand {
   font-family: 'Syncopate', sans-serif;
